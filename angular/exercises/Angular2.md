@@ -12,6 +12,16 @@ Install Angular CLI:
 ```
 $ npm install -g @angular/cli@17.1.0
 $
+```
+
+In ATU ``ng`` may be installed in a folder like ``c:\Users\L00909693\AppData\Roaming\npm``.  If so you will need to update the system PATH:
+
+```
+set PATH=%PATH%;c:\Users\L00909693\AppData\Roaming\npm
+```
+
+Then check it works:
+```
 $ ng version
 Version 17.1.0
 $
